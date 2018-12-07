@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TimeScaleParser
 {
-    public class Class1
+
+    public interface ITimeScaleParser
     {
+        TimeScale Parse(string scale);
     }
 }
